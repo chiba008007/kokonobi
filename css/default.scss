@@ -1,0 +1,71 @@
+.navbar-brand {
+  &.top {
+    color: orangered;
+    font-weight: bold;
+    height: 50px;
+    a {
+      &:hover {
+        color: orangered !important;
+      }
+    }
+  }
+}
+
+.navbar-nav {
+  a {
+    &.nav-link {
+      color: orangered !important;
+      text-decoration: underline;
+      :focus {
+        color: red;
+      }
+    }
+  }
+}
+.navbar-toggler {
+  background-color: #ccc !important;
+}
+
+.btn-border {
+  border: 1px solid #000;
+  background-color: #fff;
+  color: #000;
+  &:hover {
+    color: #000;
+    text-decoration: none;
+    background-color: #ccc;
+  }
+}
+.btn-hover {
+  color: #fff;
+  &:hover {
+    text-decoration: none;
+  }
+}
+.text-white {
+  color: #fff;
+}
+.service-height {
+  div {
+    &.card {
+      min-height: 320px;
+    }
+  }
+  ul {
+    list-style: none;
+    li {
+      display: flex; /* 点とリストを横並びに */
+      align-items: center; /* 垂直方向に中央揃い */
+      &::before {
+        content: "●";
+        color: orangered;
+        font-size: 1.5em;
+        margin-right: 0.5em;
+      }
+    }
+  }
+}
+
+.textarea {
+  height: 200px !important;
+}
