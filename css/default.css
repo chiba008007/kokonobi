@@ -63,4 +63,73 @@
   height: 200px !important;
 }
 
+a.text-orange {
+  color: orange !important;
+}
+a.nav-link.text-orange {
+  color: orange !important;
+}
+a.nav-link.text-orange:hover {
+  text-decoration: none;
+}
+
+.text-black {
+  color: #000 !important;
+}
+
+.text-orange {
+  color: orange !important;
+}
+
+#page-top .jumbotron-fluid {
+  background-image: none !important;
+  background: none !important;
+  background-color: transparent;
+  background-image: none;
+  height: 640px;
+}
+#page-top .jumbotron {
+  background-image: none !important;
+  background: none !important;
+  background-color: transparent;
+  background-image: none;
+}
+#page-top .jumbotron span {
+  color: #000 !important;
+}
+
+#footer {
+  background-color: #f7fcf2 !important;
+}
+#footer address {
+  color: #000;
+}
+#footer a.text-white {
+  color: #333 !important;
+}
+#footer a.h2 {
+  color: orange !important;
+}
+
+#copyright {
+  background-color: #fff !important;
+}
+#copyright p {
+  color: #000;
+}
+
+#sec2 {
+  background-color: #fff !important;
+}
+#sec2 a {
+  color: orange !important;
+}
+
+#breadcrumb-wrapper .breadcrumb {
+  background-color: orange;
+}
+#breadcrumb-wrapper a {
+  color: #333 !important;
+}
+
 /*# sourceMappingURL=default.css.map */
